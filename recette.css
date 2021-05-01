@@ -18,7 +18,7 @@ p.categorie {
 }
 div.contenu{
     background-color: white;
-    margin : 0px 10% 60px 10%;
+    margin : 0px 8px 30px 8px;
     padding: 30px;
     box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.2);
 }
@@ -132,3 +132,10 @@ table.preparation td.preparartion_etape {
 table.preparation tr{
     height: 40px;
 }
+@media only screen and (min-width: 760px) {
+    div.contenu{
+        min-width: 350px;
+        margin : 0px 10% 60px 10%;
+        padding: 30px;
+    }
+  }
